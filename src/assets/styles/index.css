@@ -14,14 +14,14 @@
 @layer components {
   .btn {
     @apply cursor-pointer min-w-40 px-12 py-6 text-white font-semibold text-sm hover:scale-105 transform transition-transform duration-300;
-    background-image: url('button.png');
+    background-image: url('../images/button.png');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
   }
 
   .board {
-    background-image: url('window.png');
+    background-image: url('../images/window.png');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
